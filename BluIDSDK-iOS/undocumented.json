@@ -23,14 +23,14 @@
     },
     {
       "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
-      "line": 2233,
+      "line": 2241,
       "symbol": "BluIDSDK.startBLELogging(deviceName:gestureType:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
-      "line": 2249,
+      "line": 2257,
       "symbol": "BluIDSDK.stopBLELogging()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

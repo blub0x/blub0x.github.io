@@ -275,6 +275,7 @@ $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/BluIDSDK/#com.blub0x.BluIDSDK.model
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/context/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/context.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/deleteAllPersonCardsFromUserDevice/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/delete-all-person-cards-from-user-device.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/deletePersonCardsFromUserDevice/#java.util.ArrayList[kotlin.String]/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/delete-person-cards-from-user-device.html
+$dokka.location:com.blub0x.BluIDSDK/BluIDSDK/destroy/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/destroy.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/disconnectAllDevices/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/disconnect-all-devices.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/downloadFirmware/#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/download-firmware.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/factoryResetDevice/#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/factory-reset-device.html
@@ -293,6 +294,7 @@ $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/getUserPreferences/#/PointingToDecl
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/identifyDevice/#com.blub0x.BluIDSDK.models.Device_LED#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/identify-device.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/identifyDevice/#kotlin.String#com.blub0x.BluIDSDK.models.Device_LED/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/identify-device.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/identifyDevice/#kotlin.String#kotlin.Int/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/identify-device.html
+$dokka.location:com.blub0x.BluIDSDK/BluIDSDK/isBatteryOptimizationEnabled/#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/is-battery-optimization-enabled.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/isBluPOINTUnlocked/#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/is-blu-p-o-i-n-t-unlocked.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/isBluetoothAuthorized/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/is-bluetooth-authorized.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/isBluetoothTurnedON/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/is-bluetooth-turned-o-n.html
@@ -315,17 +317,17 @@ $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/startGestureBasedAuthentication/#/P
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/stopDeviceDiscovery/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/stop-device-discovery.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/stopGestureBasedAuthentication/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/stop-gesture-based-authentication.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/syncPersonCards/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/sync-person-cards.html
+$dokka.location:com.blub0x.BluIDSDK/BluIDSDK/syncPersonCardsByID/#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/sync-person-cards-by-i-d.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/transferCredential/#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/transfer-credential.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/unRegisterDebugLogging/#/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/un-register-debug-logging.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/unlockDeviceAccess/#kotlin.String#kotlin.Function2[com.blub0x.BluIDSDK.models.BluIDSDKError?,kotlin.Long?,kotlin.Unit]#kotlin.Function1[kotlin.String,kotlin.Unit]/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/unlock-device-access.html
-$dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateAppleWatchSettings/#kotlin.String#com.blub0x.BluIDSDK.models.GenericBLESettings/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-apple-watch-settings.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateDeviceBLETxPowerLevel/#kotlin.String#kotlin.Int/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-device-b-l-e-tx-power-level.html
-$dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateDeviceEnableWiegand/#kotlin.String#kotlin.Boolean/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-device-enable-wiegand.html
-$dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateDeviceEnhancedTapSettings/#kotlin.String#com.blub0x.BluIDSDK.models.EnhancedTapSettings/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-device-enhanced-tap-settings.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateDeviceKeys/#kotlin.String#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-device-keys.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateDeviceMacAddress/#kotlin.String#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-device-mac-address.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateDeviceName/#kotlin.String#kotlin.String/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-device-name.html
+$dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateDeviceSettings/#kotlin.String#com.blub0x.BluIDSDK.models.EnhancedTapSettings/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-device-settings.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateDeviceSettings/#kotlin.String#com.blub0x.BluIDSDK.models.GestureType#com.blub0x.BluIDSDK.models.GenericBLESettings/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-device-settings.html
+$dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateDeviceSettings/#kotlin.String#kotlin.Boolean/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-device-settings.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateMultipleDeviceFirmware/#java.util.ArrayList[kotlin.String]#kotlin.String#kotlin.Function3[kotlin.String,kotlin.Int?,com.blub0x.BluIDSDK.models.BluIDSDKError?,kotlin.Unit]/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-multiple-device-firmware.html
 $dokka.location:com.blub0x.BluIDSDK/BluIDSDK/updateSingleDeviceFirmware/#kotlin.String#kotlin.String#kotlin.Function2[kotlin.String,kotlin.Int,kotlin.Unit]/PointingToDeclaration/-blu-i-d-s-d-k/com.blub0x.BluIDSDK/-blu-i-d-s-d-k/update-single-device-firmware.html
 com.blub0x.BluIDSDK

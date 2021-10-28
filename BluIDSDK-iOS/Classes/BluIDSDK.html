@@ -1201,7 +1201,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to disconnect the unlocked device.</p>
+                        <p>Disconnect and Locks the access of connected BluPOINT device</p>
 <pre class="highlight swift"><code><span class="n">m_bluIDSDKClient</span><span class="o">.</span><span class="nf">lockDeviceAccess</span><span class="p">()</span>
 
 </code></pre>
@@ -1231,7 +1231,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function returns the connected BluPOINT device information like name, id, firmware version , MAC.</p>
+                        <p>Gets firmware Version, Name, MAC address, Stack version and KeySet Id of  the conncted BluPOINT device.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  either error with<code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> or success with device details of type <code><a href="../Classes/Device_Details.html">Device_Details</a></code>.</p>
@@ -1311,7 +1311,9 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to get the firmware version of the unlocked device.</p>
+                        <p>Gets current firmware version of the connected BluPOINT device</p>
+
+<p>Note: Device should be unlock before calling this function</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  either <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> or success with firmware version of type String.</p>
@@ -1386,7 +1388,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function returns list of available firmware version in BluSKY Server</p>
+                        <p>Returns list of available firmware version in BluSKY Server.</p>
 
 <p>Note: It has dependency on login API</p>
 <h3 id='return' class='heading'>Return:</h3>
@@ -1443,7 +1445,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function delete downloaded firmware from user device.</p>
+                        <p>Deletes firmware list from user device.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with a array of version with it&rsquo;s corresponding error if any.</p>
@@ -1576,7 +1578,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function fetch person cards from BluSKY Server and saves it to user device.</p>
+                        <p>Gets person cards from BluSKY Server and saves it to user device</p>
 
 <p>Note: It has dependency on login API</p>
 <h3 id='return' class='heading'>Return:</h3>
@@ -1637,7 +1639,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function returns all person cards available in user device.</p>
+                        <p>Returns all person cards available in user device.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  list of <code><a href="../Classes/PersonCardDetails.html">PersonCardDetails</a></code>.</p>
@@ -1671,7 +1673,9 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to download a list of firmware versions from the BluSKY server.</p>
+                        <p>Downloads given firmware versions from BluSKY server.</p>
+
+<p>Note: It has dependency on login API</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with array of firmware version and its corresponsing  <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> if any.</p>
@@ -1755,7 +1759,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function downloads given firmware version from BluSKY server</p>
+                        <p>Downloads given firmware version from BluSKY server</p>
 
 <p>Note: It has dependency on login API</p>
 <h3 id='return' class='heading'>Return:</h3>
@@ -1839,7 +1843,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function reboots connectd BluPOINT device after given seconds.</p>
+                        <p>Reboots connectd BluPOINT device after given seconds.</p>
 
 <p>Note: Device should be unlock before calling this function</p>
 <h3 id='return' class='heading'>Return:</h3>
@@ -2117,7 +2121,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function returns device mode (BluPOINT/BluBOOT) of a selected BluPOINT device</p>
+                        <p>Returns device mode of a selected BluPOINT device, device modes are BluPOINT and BluBOOT</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  <code><a href="../Enums/DeviceMode.html">DeviceMode</a></code> giving whether the device is in BluPOINTMode or blubootMode.</p>
@@ -2152,9 +2156,9 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function return set BLE Tx power of BluPOINT device</p>
+                        <p>Return BLE Tx power of connected BluPOINT device.</p>
 
-<p>Note: Device should be unlock before calling this function</p>
+<p>Note: Device should be unlock before calling this function.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  either <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> or  transmission power UInt8.</p>
@@ -2217,7 +2221,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>This function allow user to update BLE Tx power of BluPOINT device to the given strength</p>
+                        <p>Sets BLE Tx power of connected BluPOINT device, this will advertis all packets and data packets with this power level</p>
 
 <p>Note: Device should be unlock before calling this function</p>
 <h3 id='return' class='heading'>Return:</h3>
@@ -2298,6 +2302,8 @@ If no setting is done by the user the default values are returned.</p>
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>This function will unlock restricted access to BluPOINT device and allow user to tweak BluPOINT device settings such as, name, LED color, Tx Power, Gesture Settings etc and Upgrade device firmware.</p>
+
+<p>Note: It has dependency on login API</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  either <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> or success with  unlock validity time of type <code>Int64</code>.</p>
@@ -2390,7 +2396,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to update the connected BluPOINT device keys.</p>
+                        <p>Set encryption keys of the connected device, encryption key is use to validate the credentials.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> if any else with nil.</p>
@@ -2468,7 +2474,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function returns the rolling arraylist of access logs.</p>
+                        <p>Gets list of all requests to BluPONT device to access door.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  list of  access logs of type <code><a href="../Structs/AccessLogItem.html">AccessLogItem</a></code>.</p>
@@ -2503,7 +2509,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to fetch the diagnostic logs.</p>
+                        <p>Gets user device (Phone) information and logs to diagnostic any issue</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  diagnostic logs of type <code><a href="../Structs/DiagnosticLog.html">DiagnosticLog</a></code>.</p>
@@ -2556,7 +2562,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to  set the connected BluPOINT device name.</p>
+                        <p>Updates name of connected BluPOINT device.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> if any else with nil.</p>
@@ -2635,7 +2641,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to  set the connected BluPOINT device  MAC value..</p>
+                        <p>Updates MAC address of connected BluPOINT device.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> if any else with nil.</p>
@@ -2715,7 +2721,7 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to  set the connected BluPOINT device  key.</p>
+                        <p>Gets Access key of connected BluPOINT device, AccessKey is key used by BluPOINT device to communicate with SDK.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with either <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code>or success response with device key of type String.</p>
@@ -2860,7 +2866,9 @@ If no setting is done by the user the default values are returned.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to enable or disable the use of Wiegand protocol.</p>
+                        <p>This function allow user to enable or disable wiegend based communication between BluPOINT device and SDK.</p>
+
+<p>Note: Device should be unlock before calling this function</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> or with success with nil.</p>
@@ -3391,7 +3399,7 @@ m_bluIDSDKClient.deletePersonCardsFromUserDevice(cardIDs:cardIDs)
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The function is used to  set range and enable or disable gesture operations  for the connected BluPOINT device .</p>
+                        <p>Update Gesture based authentication setting of connected BluPOINT device, settings include the minimum power required for a gesture and enabling and disabling gesture for the device.</p>
 <h3 id='return' class='heading'>Return:</h3>
 
 <p>Returns response with  <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> or with success with nil.</p>
@@ -3475,7 +3483,7 @@ m_bluIDSDKClient.deletePersonCardsFromUserDevice(cardIDs:cardIDs)
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2021-10-19)</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2021-10-21)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
