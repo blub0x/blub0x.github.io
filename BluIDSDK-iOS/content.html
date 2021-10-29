@@ -1,0 +1,128 @@
+<div style="width: inherit;
+height: inherit;">
+<h1>Introduction</h1>
+<p>	Embedding BluID SDK in your app, allows you to make use of a variety of BluB0X security features. BluID SDK eliminates carrying of physical ID/credentials to unlock the door in multiple facilities. BluID SDK, makes use of the phone's bluetooth adapter, for discovering nearby BluPOINT devices. These BluPOINT devices are attached to the door, turnstile etc, wherever there is an access restriction needed. If an authorized user has access to the door, then BluID SDK will authenticate the BluPOINT device with credentials to unlock the door.</p>
+ 
+<p>Embedding BluID SDK in your application, will enable BluID SDK to make use phone’s of bluetooth adapter in the background, to find nearby BluPOINT devices. Thus enabling users of your application to seamlessly authenticate BluPOINT devices to open the access restricted door.</p>
+
+<p>Users of your application will be able to authenticate BluPOINT devices, once their BluID cards are synchronized by activating BluID SDK API’s/function, which will take care of synchronizing BluID cards from BluSKY cloud server. In order to synchronize the BluID Cards, Users need to login once with their BluB0X credentials and BluID SDK will never ask for credentials for login once the user is successfully logged in.</p>
+
+<h1>Minimum Requirements</h1>
+<p>
+Xcode 12.5.1 or above
+Xcode Deployment Target iOS 13 or above
+Swift 5.3
+</p>
+
+<h1>Setup Instructions</h1>
+<h2>Create a BluB0X Occupancy account</h2>
+<p>Please contact BluB0X support for getting an BluB0X Occupance Manager account.</p>
+
+<h3>Create a General User Account</h3>
+<ul>
+<li>Login into https://blusky.blub0x.com with BluB0X Occupancy Manager account credentials</li>
+<li>Click on Add User and enter user information and once added, the user will automatically get an email with login credentials.</li>
+<li>Further if needed BluB0X Occupancy Manager can assign credential(s) to the user(s)</li>
+</ul>
+<h3>Embedding BluIDSDK.framework in project</h3>
+<ul>
+    <li>Copy BluIDSDK.framework file provided by BluB0X into you project’s directory</li>
+    <li>Import BluIDSDK.framework file into your project</li>
+</ul>
+<p>
+<img src="images/framework.png" >
+</p>
+
+Configure iOS privacy permissions
+BluID SDK uses the phone's bluetooth adapter to discover nearby BluPOINT devices and interacts with them to perform certain operations. In order to perform these operations, BluID SDK needs user consent for Bluetooth permissions. Following are the keys needs to be added in project’s Info.plist
+NSBluetoothAlwaysUsageDescription
+NSBluetoothPeripheralUsageDescription
+
+Enable Background Modes
+BluID SDK needs permission to run in background, so that BluID SDK can authenticate BluPOINT devices even when the application is in background. This will help users of your application to seamlessly authenticate BluPOINT devices without opening the application. 
+Open Project Settings
+Navigate to Signing & Capabilities tab
+Choose “+ Capabilities” option and select Background Modes
+
+In Background Modes section, make sure to select option “Uses Bluetooth LE accessories” & “Background Processing”
+In project info.plist, add the following key with bundle identifiers of BluID SDK & application.
+BGTaskSchedulerPermittedIdentifiers
+com.blub0x.BluIDSDK
+<application_bundle_identifier>
+
+
+BluID SDK Usage
+Initialization
+BluID SDK exposes all the API’s using the BluIDSDK instance. It is recommended to use a single instance of BluIDSDK throughout the application lifecycle.
+
+First step is to import BluIDSDK in the application source file,
+import BluIDSDK
+
+Then initialize SDK using the following code block,
+val m_bluIDSDKClient = BluIDSDK()
+
+By default, BluIDSDK is set to production environment. You can also choose a different environment by using the following code block,
+val m_bluIDSDKClient = BluIDSDK(env:BluIDSDK_Environment)
+
+env: Environment parameter is for choosing where you want SDK to be pointed out, i.e. .production, .qa or .qatest. If no argument is passed BluID SDK by default points to .production
+You can also find out what version of BluID SDK is being used by using the following code block
+val sdkVersion:String = m_bluIDSDKClient.getSDKVersion()
+print("BluIDSDK v\(sdkVersion)")
+
+
+BluPOINT Device Discovery
+Once the BluIDSDK is initialized, we can start discovering nearby BluPOINT Devices using the phone’s bluetooth adapter.
+Discover BluPOINT devices
+Before we start discovering BluPOINT devices, we need to make sure that, phone’s bluetooth is turned ON and we have the user's consent to use the bluetooth adapter. We can achieve this by using the following code block.
+guard m_bluIDSDKClient.isBluetoothTurnedON() else {
+	print("Bluetooth needs to be turned ON")
+}
+guard m_bluIDSDKClient.isBluetoothAuthorized() else {
+	print("User consent is required to use Bluetooth")
+}
+
+Then using discoverDevices API, we can now start discovering nearby BluPOINT devices,
+(TODO: Add code)
+Stop Device Discovery
+We can stop ongoing device discovery, by using the following code block,
+(TODO: Add code)
+User Login
+BluID SDK incorporates BluB0X login to ensure a genuine user with BluB0X credentials is logged in. Signing in with BluB0X credentials will enable users to make use of BluB0X security related features. Here is the code block which shows how login works,
+(TODO: Add code)
+Refresh Login
+As per the login session response, validity of user login session is determined. We can extend the login session by refreshLogin API and here is a code block for reference
+(TODO: Add code)
+Auto-authenticator
+syncCredentials
+fetchCredentials
+deleteCredentials
+deleteAllCredentials
+startAutoAuthentication
+stopAutoAuthenticator
+transferCredentials
+User Settings
+getSettings
+saveSettings
+Unlock BluPOINT Device
+unlockDevice
+identifyDevice
+disconnectDevice
+
+Firmware Upgrade
+getDeviceInformation
+getFirmwareVersion
+listFirmware
+downloadFirmware
+deleteFirmware
+
+updateFirmware
+startMultipleDeviceUpdateFirmware
+Tweaking BluPOINT Settings
+
+User Logout
+
+</div>
+
+
+
+

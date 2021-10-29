@@ -1616,7 +1616,82 @@ If no setting is done by the user the default values are returned.</p>
                               </td>
                               <td>
                                 <div>
-                                  <p>This callback is triggered when the BluSKY server responds to the syncPersonCars Request.</p>
+                                  <p>This callback is triggered when the BluSKY server responds to the syncPersonCards Request.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8BluIDSDKAAC19syncPersonCardsByID04userG010onCompleteySS_yAA0A10IDSDKErrorOSg_SayAA0D11CardDetailsCGSgtctF"></a>
+                    <a name="//apple_ref/swift/Method/syncPersonCardsByID(userID:onComplete:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8BluIDSDKAAC19syncPersonCardsByID04userG010onCompleteySS_yAA0A10IDSDKErrorOSg_SayAA0D11CardDetailsCGSgtctF">syncPersonCardsByID(userID:<wbr>onComplete:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets person cards for given User ID from BluSKY Server and saves it to user device</p>
+
+<p>Note: It has dependency on login API</p>
+<h3 id='return' class='heading'>Return:</h3>
+
+<p>Returns response with  either <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> or success response with list of <code><a href="../Classes/PersonCardDetails.html">PersonCardDetails</a></code>.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+<pre class="highlight swift"><code><span class="k">var</span> <span class="nv">userID</span> <span class="o">=</span> <span class="s">"1234abcd-5678-910e-80f3-d6712de9a4db"</span>
+
+<span class="n">m_bluIDSDKClient</span><span class="o">.</span><span class="nf">syncPersonCardsByID</span><span class="p">(</span><span class="nv">userID</span> <span class="p">:</span> <span class="n">userID</span><span class="p">,</span><span class="nv">onComplete</span><span class="p">:{</span> <span class="p">(</span><span class="n">error</span><span class="p">,</span><span class="n">data</span><span class="p">)</span>  <span class="k">in</span>
+   <span class="nf">print</span><span class="p">(</span><span class="n">error</span> <span class="p">??</span> <span class="s">""</span><span class="p">,</span><span class="n">data</span> <span class="p">??</span> <span class="s">""</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre>
+<h3 id='possible-errors' class='heading'> Possible Errors:</h3>
+
+<p><code><a href="../Enums/BluIDSDKError.html#/s:8BluIDSDK0A10IDSDKErrorO7timeoutyA2CmF">BluIDSDKError.timeout</a></code></p>
+
+<p><code><a href="../Enums/BluIDSDKError.html#/s:8BluIDSDK0A10IDSDKErrorO12loginExpiredyA2CmF">BluIDSDKError.loginExpired</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">syncPersonCardsByID</span><span class="p">(</span><span class="nv">userID</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">onComplete</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></span><span class="p">?,</span> <span class="p">[</span><span class="kt"><a href="../Classes/PersonCardDetails.html">PersonCardDetails</a></span><span class="p">]?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userID</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Unique identifier of a user assigned by BluB0x.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>onComplete</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>This callback is triggered when the BluSKY server responds to the syncPersonCardsByID Request.</p>
                                 </div>
                               </td>
                             </tr>
@@ -3483,7 +3558,7 @@ m_bluIDSDKClient.deletePersonCardsFromUserDevice(cardIDs:cardIDs)
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2021-10-21)</p>
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2021-10-29)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

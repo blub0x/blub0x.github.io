@@ -1,572 +1,579 @@
 {
   "warnings": [
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
       "line": 36,
       "symbol": "BluIDSDK.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
       "line": 61,
       "symbol": "BluIDSDK.init(env:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
       "line": 263,
       "symbol": "BluIDSDK.refreshIntegrator(integrator:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
-      "line": 2241,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
+      "line": 2282,
       "symbol": "BluIDSDK.startBLELogging(deviceName:gestureType:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
-      "line": 2257,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/BluIDSDK.swift",
+      "line": 2298,
       "symbol": "BluIDSDK.stopBLELogging()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 10,
       "symbol": "SwiftSample",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 17,
       "symbol": "SwiftSample.isBluetoothTurnedON()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 22,
       "symbol": "SwiftSample.isBluetoothAuthorized()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 27,
       "symbol": "SwiftSample.startDeviceDiscovery()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 35,
       "symbol": "SwiftSample.stopDeviceDiscovery()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 39,
       "symbol": "SwiftSample.login()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 51,
       "symbol": "SwiftSample.refreshLogin()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 57,
       "symbol": "SwiftSample.logout()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 66,
       "symbol": "SwiftSample.syncPersonCards()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
       "line": 72,
+      "symbol": "SwiftSample.syncPersonCardsByID()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 80,
       "symbol": "SwiftSample.getPersonCardsOffline()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 77,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 85,
       "symbol": "SwiftSample.deletePersonCardsFromUserDevice()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 82,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 90,
       "symbol": "SwiftSample.deleteAllCredentials()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 86,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 94,
       "symbol": "SwiftSample.startGestureBasedAuthentication()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 90,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 98,
       "symbol": "SwiftSample.stopGestureBasedAuthentication()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 94,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 102,
       "symbol": "SwiftSample.transferCredential()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 101,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 109,
       "symbol": "SwiftSample.getUserPreference()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 106,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 114,
       "symbol": "SwiftSample.saveUserPreference()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 114,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 122,
       "symbol": "SwiftSample.unlockDeviceAccess()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 133,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 141,
       "symbol": "SwiftSample.identifyDevice(withLED:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 145,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 153,
       "symbol": "SwiftSample.identifyDevice(withBuzzerONInSeconds:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 157,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 165,
       "symbol": "SwiftSample.identifyDevice(withBothLEDnBuzzerONInSeconds:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 169,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 177,
       "symbol": "SwiftSample.lockDeviceAccess()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 178,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 186,
       "symbol": "SwiftSample.getDeviceInformation()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 190,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 198,
       "symbol": "SwiftSample.getDeviceFirmwareVersion()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 196,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 204,
       "symbol": "SwiftSample.listAvailableFirmwareVersions()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 202,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 210,
       "symbol": "SwiftSample.downloadFirmware(versions:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 211,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 219,
       "symbol": "SwiftSample.downloadFirmware(version:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 217,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 225,
       "symbol": "SwiftSample.removeFirmwareFromUserDevice()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 224,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 232,
       "symbol": "SwiftSample.updateSingleDeviceFirmware()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 241,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 249,
       "symbol": "SwiftSample.updateMultipleDeviceFirmware()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 259,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 267,
       "symbol": "SwiftSample.registerDebugLogging()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 265,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 273,
       "symbol": "SwiftSample.unregisterDebugLogging()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 269,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 277,
       "symbol": "SwiftSample.registerUserDevice()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 284,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 292,
       "symbol": "SwiftSample.getDeviceStateLEDColor()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 295,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 303,
       "symbol": "SwiftSample.getDeviceMode()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 306,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 314,
       "symbol": "SwiftSample.getBLETxPowerLevel()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 317,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 325,
       "symbol": "SwiftSample.getDeviceAccessKey()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 329,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 337,
       "symbol": "SwiftSample.updateDeviceBLETxPowerLevel()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 341,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 349,
       "symbol": "SwiftSample.updateDeviceKeys()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 353,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 361,
       "symbol": "SwiftSample.updateDeviceName()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 367,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 375,
       "symbol": "SwiftSample.updateDeviceMacAddress()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 381,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 389,
       "symbol": "SwiftSample.setDeviceStateLEDColor()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 396,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 404,
       "symbol": "SwiftSample.updateDeviceSettings()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 411,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 419,
       "symbol": "SwiftSample.updateEnhancedTapSettings()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 423,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 431,
       "symbol": "SwiftSample.updateDeviceEnableWiegand()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 434,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 442,
       "symbol": "SwiftSample.setDeviceReaderID()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 448,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 456,
       "symbol": "SwiftSample.getAccessLogs()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 453,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 461,
       "symbol": "SwiftSample.getDiagnosticInfo()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 459,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 467,
       "symbol": "SwiftSample.factoryResetDevice()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
-      "line": 471,
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/Sample/SwiftSample.swift",
+      "line": 479,
       "symbol": "SwiftSample.rebootDevice()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/BluSKY_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/BluSKY_model.swift",
       "line": 65,
       "symbol": "UserCredentials.username",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/BluSKY_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/BluSKY_model.swift",
       "line": 66,
       "symbol": "UserCredentials.password",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/BluSKY_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/BluSKY_model.swift",
       "line": 67,
       "symbol": "UserCredentials.init(userName:password:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/ble_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/ble_model.swift",
       "line": 124,
       "symbol": "Device_Details.encode(to:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/ble_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/ble_model.swift",
       "line": 143,
       "symbol": "ScanFilter.init(signalStrength:callbackGapInMillis:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/db_user_defaults.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/db_user_defaults.swift",
       "line": 53,
       "symbol": "AccessLogItem.init(timestamp:accessStatus:cardId:keySetId:macId:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/errors.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/errors.swift",
       "line": 123,
       "symbol": "BluIDSDKError.sdkError(errorMessage:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 26,
       "symbol": "Device_LED_Color.init(red:green:blue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 46,
       "symbol": "Device_LED.init(color:onTimeInSeconds:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 250,
       "symbol": "MobileDeviceInfo.init(firebaseToken:osVersion:deviceModel:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 255,
       "symbol": "MobileDeviceInfo.init(personID:firebaseToken:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 289,
       "symbol": "GestureSetting.power",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 290,
       "symbol": "GestureSetting.enabled",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 291,
       "symbol": "GestureSetting.init(enabled:power:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 327,
       "symbol": "EnhancedTapSettings.init(enabled:iosBackgroundPower:iosForegroundPower:androidPower:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 583,
       "symbol": "GestureType.tap",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 584,
       "symbol": "GestureType.twist",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 585,
       "symbol": "GestureType.inRange",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 586,
       "symbol": "GestureType.appSpecific",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 587,
       "symbol": "GestureType.wave",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 588,
       "symbol": "GestureType.ai",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 589,
       "symbol": "GestureType.appleWatch",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/model/sdk_model.swift",
       "line": 590,
       "symbol": "GestureType.BluREMOTE",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/utils/commons.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/utils/commons.swift",
       "line": 37,
       "symbol": "UUID.asUInt8Array()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/utils/commons.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/utils/commons.swift",
       "line": 41,
       "symbol": "UUID.asData()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK/BluIDSDK/utils/diagnostiicLogs.swift",
+      "file": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK/BluIDSDK/utils/diagnostiicLogs.swift",
       "line": 42,
       "symbol": "fetchDiagnosticLogs(callback:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/developer/ws_omkar/BluIDSDK_iOS/BluIDSDK"
+  "source_directory": "/Users/akhilkumar/workspace/BluIDSDK_iOS/BluIDSDK"
 }
