@@ -12,17 +12,18 @@
     <script src="js/typeahead.jquery.js" defer></script>
     <script src="js/jazzy.search.js" defer></script>
     <script type="text/javascript">
+
+    function loadContent(){
+        document.getElementById("BluIDSDKContent").innerHTML='<object type="text/html"  style="width: inherit;height: inherit;" data="BluIDSDKDocumentation.html" ></object>';
+    }
     
-      function loadContent(){
-        document.getElementById("BluIDSDKContent").innerHTML='<object type="text/html" style="width: inherit;height: inherit;" data="BluIDSDKDocumentation.html" ></object>';
-      }
-      </script>
+    </script>
   </head>
-  <body  onload="loadContent()">
+  <body onload="loadContent()">
     <a title="  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html"> Docs</a> (72% documented)</p>
+        <p><a href="index.html"> Docs</a> (70% documented)</p>
         <div class="header-right">
           <form role="search" action="search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -47,31 +48,25 @@
                 <a href="Classes/BluIDSDK.html">BluIDSDK</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/BluPOINTFilter.html">BluPOINTFilter</a>
+                <a href="Classes/Device.html">Device</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/BluPOINT_Details.html">BluPOINT_Details</a>
+                <a href="Classes/Device_Details.html">Device_Details</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/BluPOINT_Device.html">BluPOINT_Device</a>
+                <a href="Classes/Device_Firmware.html">Device_Firmware</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/BluPOINT_Device_Details.html">BluPOINT_Device_Details</a>
+                <a href="Classes/Device_Information.html">Device_Information</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/BluPOINT_Firmware.html">BluPOINT_Firmware</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/BluPOINT_Info.html">BluPOINT_Info</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/BluPOINT_LED_Color.html">BluPOINT_LED_Color</a>
+                <a href="Classes/Device_LED_Color.html">Device_LED_Color</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/EnhancedTapSettings.html">EnhancedTapSettings</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/GenericBLESettings.html">GenericBLESettings</a>
+                <a href="Classes/GestureSetting.html">GestureSetting</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/MobileDeviceInfo.html">MobileDeviceInfo</a>
@@ -80,7 +75,10 @@
                 <a href="Classes.html#/s:8BluIDSDK18MobileDeviceObjectC">MobileDeviceObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="Classes/PersonCard.html">PersonCard</a>
+                <a href="Classes/PersonCardDetails.html">PersonCardDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ScanFilter.html">ScanFilter</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/SwiftSample.html">SwiftSample</a>
@@ -106,10 +104,13 @@
                 <a href="Enums/BluIDSDK_Environment.html">BluIDSDK_Environment</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/DeviceLEDState.html">DeviceLEDState</a>
+                <a href="Enums/DeviceMode.html">DeviceMode</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/DeviceMode.html">DeviceMode</a>
+                <a href="Enums/DeviceState.html">DeviceState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/GestureType.html">GestureType</a>
               </li>
             </ul>
           </li>
@@ -122,24 +123,16 @@
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Functions.html">Functions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Functions.html#/s:8BluIDSDK19fetchDiagnosticLogs8callbackyyAA0dE0Vc_tF">fetchDiagnosticLogs(callback:)</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
             <a href="Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="Structs/AccessLogItem.html">AccessLogItem</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/BluPOINT_LED.html">BluPOINT_LED</a>
+                <a href="Structs/Device_LED.html">Device_LED</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/DiagnosticLogs.html">DiagnosticLogs</a>
+                <a href="Structs/DiagnosticLog.html">DiagnosticLog</a>
               </li>
               <li class="nav-group-task">
                 <a href="Structs/UserCredentials.html">UserCredentials</a>
@@ -164,12 +157,12 @@
           <section class="section">
             
             <h3 id='authors' class='heading'>BluIDSDK</h3>
-​
+
           </section>
         </section>
         <section id="footer">
-          <div id="BluIDSDKContent" style="width: 100%;
-          height: 100vh;"></div>
+            <div id="BluIDSDKContent" style="width: 100%;
+            height: 100vh;"></div>
         </section>
       </article>
     </div>
