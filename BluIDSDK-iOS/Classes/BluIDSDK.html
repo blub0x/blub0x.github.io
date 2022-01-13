@@ -2721,7 +2721,7 @@ If no setting is done by the user the default values are returned.</p>
 
 <p>Returns response with  <code><a href="../Enums/BluIDSDKError.html">BluIDSDKError</a></code> if any else with nil.</p>
 <h3 id='usage-example' class='heading'>Usage Example:</h3>
-<pre class="highlight swift"><code><span class="n">m_bluIDSDKClient</span><span class="o">.</span><span class="nf">updateDeviceMacAddress</span><span class="p">(</span><span class="nv">macAddress</span><span class="p">:</span> <span class="s">"1a:2b:3c:4d:5e:6f"</span><span class="p">,</span><span class="nv">onResponse</span><span class="p">:{</span> <span class="p">(</span><span class="n">error</span><span class="p">)</span>  <span class="k">in</span>
+<pre class="highlight swift"><code><span class="n">m_bluIDSDKClient</span><span class="o">.</span><span class="nf">updateDeviceMacAddress</span><span class="p">(</span><span class="nv">macAddress</span><span class="p">:</span> <span class="s">"1a2b3c4d5e6f"</span><span class="p">,</span><span class="nv">onResponse</span><span class="p">:{</span> <span class="p">(</span><span class="n">error</span><span class="p">)</span>  <span class="k">in</span>
    <span class="nf">print</span><span class="p">(</span><span class="n">error</span> <span class="p">??</span> <span class="s">""</span><span class="p">)</span>
 <span class="p">})</span>
 
