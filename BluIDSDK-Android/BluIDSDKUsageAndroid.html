@@ -3414,20 +3414,20 @@
     </h1>
     <ul class="c31 lst-kix_qmft43z2jd6r-0 start">
       <li class="c7 li-bullet-0">
-        <span class="c4">Android SDK platform 33 (minimum 26)</span>
+        <span class="c4">Android SDK platform 34 (minimum 26)</span>
       </li>
       <li class="c7 li-bullet-0">
-        <span class="c4">Android SDK Build-tools 31</span>
+        <span class="c4">Android SDK Build-tools 34</span>
       </li>
       <li class="c7 li-bullet-0">
         <span class="c4">Android SDK command line tools (latest)</span>
       </li>
       <li class="c7 li-bullet-0">
-        <span class="c4">Android SDK platform-tools 31.0.3</span>
+        <span class="c4">Android SDK platform-tools 34.0.0</span>
       </li>
-      <li class="c7 li-bullet-0"><span class="c4">Gradle 7.3.3</span></li>
+      <li class="c7 li-bullet-0"><span class="c4">Gradle 8.0</span></li>
       <li class="c7 li-bullet-0">
-        <span class="c4">Gradle Plugin for Android 7.2.1</span>
+        <span class="c4">Gradle Plugin for Android 8.1.1</span>
       </li>
     </ul>
     <p class="c12 c36"><span class="c4"></span></p>
@@ -3776,6 +3776,14 @@
                 >=&quot;android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS&quot;</span
               ><span class="c14 c23">/&gt;</span>
             </p>
+             <p class="c25">
+              <span class="c14">&lt;</span
+              ><span class="c16">uses-permission &nbsp;</span
+              ><span class="c1">android</span><span class="c22">:name</span
+              ><span class="c13"
+                >=&quot;android.permission.FOREGROUND_SERVICE_LOCATION&quot;</span
+              ><span class="c14 c23">/&gt;</span>
+            </p>
           </td>
         </tr>
       </tbody>
@@ -3847,6 +3855,13 @@
               ><span class="c1">Manifest</span><span class="c0">.</span
               ><span class="c1">permission</span><span class="c0">.</span
               ><span class="c22">FOREGROUND_SERVICE</span
+              ><span class="c0 c23">,</span>
+            </p>
+             <p class="c25">
+              <span class="c0">&nbsp; &nbsp;</span
+              ><span class="c1">Manifest</span><span class="c0">.</span
+              ><span class="c1">permission</span><span class="c0">.</span
+              ><span class="c22">FOREGROUND_SERVICE_LOCATION</span
               ><span class="c0 c23">,</span>
             </p>
             <p class="c25"><span class="c21 c23">)</span></p>
@@ -4127,6 +4142,9 @@
               ><span class="c1">android</span
               ><span class="c22">:stopWithTask</span
               ><span class="c13">=&quot;true&quot;</span
+              ><span class="c1">android</span
+              ><span class="c22">:foregroundServiceType</span
+              ><span class="c13">=&quot;location&quot;</span
               ><span class="c14">/&gt;</span>
             </p>
           </td>
